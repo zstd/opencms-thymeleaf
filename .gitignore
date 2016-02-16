@@ -1,4 +1,7 @@
+*.iml
 *.class
+/src/test/resources/templates/*.ftl
+.idea
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
