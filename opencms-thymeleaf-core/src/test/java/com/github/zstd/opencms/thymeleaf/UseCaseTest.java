@@ -12,7 +12,7 @@ public class UseCaseTest {
                                               Map params,
                                               String templateCatalogLocation){
         TemplateEngine templateEngine = new TemplateEngine();
-        templateEngine.setTemplateResolver(new VfsTemplateResolver());
+        templateEngine.setTemplateResolver(new VfsTemplateResolver(null));
         OpenCmsContext context = new OpenCmsContext();
         return templateEngine.process(templateName,context);
     }

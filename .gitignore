@@ -1,6 +1,6 @@
 *.iml
 *.class
-/src/test/resources/templates/*.ftl
+*.ftl
 .idea
 
 # Mobile Tools for Java (J2ME)
