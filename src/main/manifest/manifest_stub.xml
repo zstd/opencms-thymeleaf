@@ -1,6 +1,6 @@
 <export>
     <info>
-        <creator>zstd</creator>
+        <creator>Admin</creator>
         <opencms_version>9.0.1</opencms_version>
         <createdate>${createdate}</createdate>
         <infoproject>Offline</infoproject>
@@ -8,27 +8,23 @@
     </info>
     <module>
         <name>com.github.zstd.opencms.thymeleaf</name>
-        <nicename><![CDATA[Thymeleaf Support in OpenCms]]></nicename>
+        <nicename/>
         <class/>
-        <description><![CDATA[Module for using Thymeleaf templates in OpenCms]]></description>
-        <version>1.0</version>
-        <authorname><![CDATA[Andrey Zaycev]]></authorname>
-        <authoremail><![CDATA[zstd@mail.ru]]></authoremail>
+        <description/>
+        <version>0.1</version>
+        <authorname/>
+        <authoremail/>
         <datecreated/>
         <userinstalled/>
         <dateinstalled/>
         <dependencies/>
         <exportpoints>
-            <exportpoint
-                    uri="/system/modules/com.github.zstd.opencms.thymeleaf/classes/"
-                    destination="WEB-INF/classes/"/>
+            <exportpoint uri="/system/modules/com.github.zstd.opencms.thymeleaf/classes/" destination="WEB-INF/classes/"/>
         </exportpoints>
         <resources>
             <resource uri="/system/modules/com.github.zstd.opencms.thymeleaf/"/>
         </resources>
         <parameters/>
-        <resourcetypes/>
-        <explorertypes/>
     </module>
     <files/>
 </export>

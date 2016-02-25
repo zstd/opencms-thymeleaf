@@ -3,7 +3,7 @@
     <info>
         <creator>zstd</creator>
         <opencms_version>9.0.1</opencms_version>
-        <createdate>${createdate}</createdate>
+        <createdate>Sat, 20 Feb 2016 16:11:29 GMT</createdate>
         <infoproject>Offline</infoproject>
         <export_version>7</export_version>
     </info>
@@ -12,7 +12,7 @@
         <nicename><![CDATA[Thymeleaf Support in OpenCms]]></nicename>
         <class/>
         <description><![CDATA[Module for using Thymeleaf templates in OpenCms]]></description>
-        <version>1.0</version>
+        <version>1.0.0</version>
         <authorname><![CDATA[Andrey Zaycev]]></authorname>
         <authoremail><![CDATA[zstd@mail.ru]]></authoremail>
         <datecreated/>

@@ -32,7 +32,9 @@
                 <version>1.2</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <manifestMetaDir>src/main/manifest</manifestMetaDir>
+                    <manifestFile>src/main/manifest/manifest.xml</manifestFile>
+                    <moduleName>com.github.zstd.opencms.thymeleaf</moduleName>
+                    <moduleVersion>1.0.0</moduleVersion>
                 </configuration>
             </plugin>
             <plugin>
