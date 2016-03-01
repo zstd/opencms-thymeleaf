@@ -1,0 +1,3 @@
+org.thymeleaf:thymeleaf:jar:2.1.2
+ognl:ognl:jar:3.0.6
+org.javassist:javassist:jar:3.16.1-GA

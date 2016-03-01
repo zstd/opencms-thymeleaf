@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export>
     <info>
-        <creator>zstd</creator>
+        <creator>Admin</creator>
         <opencms_version>9.0.1</opencms_version>
-        <createdate>Sat, 20 Feb 2016 16:11:29 GMT</createdate>
+        <createdate>Tue, 01 Mar 2016 16:25:34 GMT</createdate>
         <infoproject>Offline</infoproject>
         <export_version>7</export_version>
     </info>
     <module>
         <name>com.github.zstd.opencms.thymeleaf</name>
-        <nicename><![CDATA[Thymeleaf Support in OpenCms]]></nicename>
+        <nicename/>
         <class/>
-        <description><![CDATA[Module for using Thymeleaf templates in OpenCms]]></description>
-        <version>1.0.0</version>
-        <authorname><![CDATA[Andrey Zaycev]]></authorname>
-        <authoremail><![CDATA[zstd@mail.ru]]></authoremail>
+        <description/>
+        <version>0.1</version>
+        <authorname/>
+        <authoremail/>
         <datecreated/>
         <userinstalled/>
         <dateinstalled/>
@@ -26,8 +26,323 @@
             <resource uri="/system/modules/com.github.zstd.opencms.thymeleaf/"/>
         </resources>
         <parameters/>
-        <resourcetypes/>
-        <explorertypes/>
     </module>
-    <files/>
+    <files>
+        <file>
+            <destination>system</destination>
+            <type>folder</type>
+            <uuidstructure>daf51946-7e2d-4baa-b1aa-9f3192101398</uuidstructure>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol>
+                <accessentry>
+                    <uuidprincipal>GROUP.Users</uuidprincipal>
+                    <flags>34</flags>
+                    <permissionset>
+                        <allowed>1</allowed>
+                        <denied>0</denied>
+                    </permissionset>
+                </accessentry>
+            </accesscontrol>
+        </file>
+        <file>
+            <destination>system/modules</destination>
+            <type>folder</type>
+            <uuidstructure>f164ff23-a0fb-4c0a-b4be-0eed5d0bd766</uuidstructure>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol>
+                <accessentry>
+                    <uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
+                    <flags>514</flags>
+                    <permissionset>
+                        <allowed>5</allowed>
+                        <denied>0</denied>
+                    </permissionset>
+                </accessentry>
+            </accesscontrol>
+        </file>
+        <file>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf</destination>
+            <type>folder</type>
+            <uuidstructure>c4f7c226-1685-41f1-8c18-6dbc87167744</uuidstructure>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes</destination>
+            <type>folder</type>
+            <uuidstructure>081ccde9-24ba-492f-b96b-6181b4ad8a5f</uuidstructure>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes/com</destination>
+            <type>folder</type>
+            <uuidstructure>962161de-eaff-44a3-aa24-148bebeccbe6</uuidstructure>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github</destination>
+            <type>folder</type>
+            <uuidstructure>1d21fcd9-c154-4a2d-89f5-6e7ce68c2683</uuidstructure>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd</destination>
+            <type>folder</type>
+            <uuidstructure>36d35463-9c8b-4e2f-979a-7d529787bd42</uuidstructure>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms</destination>
+            <type>folder</type>
+            <uuidstructure>efdc9237-ea8a-4dae-ab58-9eb89ec219c0</uuidstructure>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf</destination>
+            <type>folder</type>
+            <uuidstructure>d8f05d3f-d783-4d96-80b0-8a94536e7967</uuidstructure>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <source>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/CmsObjectAdapter.class</source>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/CmsObjectAdapter.class</destination>
+            <type>binary</type>
+            <uuidstructure>d2a350a5-2198-499d-a3d1-7271eae5be67</uuidstructure>
+            <uuidresource>a220c7ae-cbaf-4b90-874c-ab961fb87781</uuidresource>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <source>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/CmsObjectAdapterImpl.class</source>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/CmsObjectAdapterImpl.class</destination>
+            <type>binary</type>
+            <uuidstructure>eb6ef31d-1f78-49a6-a882-524565d16c2e</uuidstructure>
+            <uuidresource>9287d7c5-9db0-4e7b-8c36-a4455160577d</uuidresource>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <source>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/empty</source>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/empty</destination>
+            <type>plain</type>
+            <uuidstructure>486a7f0c-1843-4934-9527-948f403676f3</uuidstructure>
+            <uuidresource>c6dfd845-e0ca-4e1c-95d7-d71e4934f7a5</uuidresource>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <source>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/OpenCmsContext.class</source>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/OpenCmsContext.class</destination>
+            <type>binary</type>
+            <uuidstructure>4be61687-318d-4777-b771-f60751574a65</uuidstructure>
+            <uuidresource>611b812b-974b-4582-9738-73b125a7d100</uuidresource>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <source>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/OpenCmsThymeleafException.class</source>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/OpenCmsThymeleafException.class</destination>
+            <type>binary</type>
+            <uuidstructure>04319b03-8aa0-4cac-8800-761c66aa0010</uuidstructure>
+            <uuidresource>d7f5b615-fda9-476d-b959-712cd5bc4bc3</uuidresource>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <source>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/OpenCmsWrapperException.class</source>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/OpenCmsWrapperException.class</destination>
+            <type>binary</type>
+            <uuidstructure>51f38d77-3c0c-46e7-99c4-485ec13526b4</uuidstructure>
+            <uuidresource>4647fbc7-51da-4bfb-bd1a-8b2890a1ef4f</uuidresource>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <source>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/VfsResourceResolver.class</source>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/VfsResourceResolver.class</destination>
+            <type>binary</type>
+            <uuidstructure>a7446733-1363-47da-9453-c0c546810fb0</uuidstructure>
+            <uuidresource>533136f1-b38a-415c-a668-ee6cf7c505f9</uuidresource>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <source>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/VfsTemplateResolver.class</source>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/classes/com/github/zstd/opencms/thymeleaf/VfsTemplateResolver.class</destination>
+            <type>binary</type>
+            <uuidstructure>0e8a3cc2-02ee-4995-880f-dfbca3dc2a04</uuidstructure>
+            <uuidresource>41575185-427a-444f-9284-49f1aa7755d9</uuidresource>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/example</destination>
+            <type>folder</type>
+            <uuidstructure>be9f4d18-d366-4f6a-8dc7-a4042141d3e7</uuidstructure>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <source>system/modules/com.github.zstd.opencms.thymeleaf/example/simple.jsp</source>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/example/simple.jsp</destination>
+            <type>jsp</type>
+            <uuidstructure>5faa93f6-aa5b-4b18-b2de-537753ca7ac1</uuidstructure>
+            <uuidresource>05ca309f-5a24-4162-a2ba-fac46e6f26f7</uuidresource>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties>
+                <property type="shared">
+                    <name>export</name>
+                    <value><![CDATA[false]]></value>
+                </property>
+            </properties>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/thymeleaf</destination>
+            <type>folder</type>
+            <uuidstructure>dc31eaa8-dc00-49a0-91bd-b5d847f7741d</uuidstructure>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+        <file>
+            <source>system/modules/com.github.zstd.opencms.thymeleaf/thymeleaf/simple-template.html</source>
+            <destination>system/modules/com.github.zstd.opencms.thymeleaf/thymeleaf/simple-template.html</destination>
+            <type>plain</type>
+            <uuidstructure>6aa664ad-f8ab-4371-a8e5-258cc8f55196</uuidstructure>
+            <uuidresource>2efa6993-2e60-4276-b77e-b6b24db4ecb6</uuidresource>
+            <datelastmodified>Tue, 01 Mar 2016 16:24:11 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 01 Mar 2016 16:24:11 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties/>
+            <relations/>
+            <accesscontrol/>
+        </file>
+    </files>
 </export>

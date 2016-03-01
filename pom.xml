@@ -65,7 +65,7 @@
                         </goals>
                         <configuration>
                             <outputDirectory>
-                                ../src/main/vfs/system/modules/com.github.zstd.opencms.thymeleaf/classes
+                                ${project.basedir}/src/main/vfs/system/modules/com.github.zstd.opencms.thymeleaf/classes
                             </outputDirectory>
                             <resources>
                                 <resource>
