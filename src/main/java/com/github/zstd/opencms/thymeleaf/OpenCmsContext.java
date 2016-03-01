@@ -7,7 +7,7 @@ import java.util.Locale;
 
 public class OpenCmsContext implements IContext {
     public VariablesMap<String, Object> getVariables() {
-        return null;
+        return new VariablesMap<String, Object>();
     }
 
     public Locale getLocale() {

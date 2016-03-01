@@ -1,8 +1,6 @@
 package com.github.zstd.opencms.thymeleaf;
 
 import org.opencms.file.CmsFile;
-import org.opencms.file.CmsObject;
-import org.opencms.main.CmsException;
 import org.thymeleaf.TemplateProcessingParameters;
 import org.thymeleaf.resourceresolver.IResourceResolver;
 
@@ -13,9 +11,9 @@ import java.io.InputStream;
 public class VfsResourceResolver implements IResourceResolver {
 
     private VfsTemplateResolver vfsTemplateResolver;
-    private CmsObject cmsObject;
+    private CmsObjectAdapter cmsObject;
 
-    public VfsResourceResolver(CmsObject cmsObject, VfsTemplateResolver vfsTemplateResolver) {
+    public VfsResourceResolver(CmsObjectAdapter cmsObject, VfsTemplateResolver vfsTemplateResolver) {
         this.vfsTemplateResolver = vfsTemplateResolver;
         this.cmsObject = cmsObject;
     }
@@ -27,16 +25,13 @@ public class VfsResourceResolver implements IResourceResolver {
     public InputStream getResourceAsStream(TemplateProcessingParameters templateProcessingParameters,
                                            String resourceName) {
         String fullPath = getFullPath(resourceName);
-        if(cmsObject.existsResource(fullPath)) {
-            try {
-                CmsFile file = cmsObject.readFile(fullPath);
-                // TODO does it make sense?
-                return new BufferedInputStream(new ByteArrayInputStream(file.getContents()));
-            } catch (CmsException e) {
-                e.printStackTrace();
-            }
+        if (cmsObject.existsResource(fullPath)) {
+            CmsFile file = cmsObject.readFile(fullPath);
+            // TODO does it make sense?
+            return new BufferedInputStream(new ByteArrayInputStream(file.getContents()));
+        } else {
+            throw new OpenCmsThymeleafException(String.format("Template resource [%s] does not exist", resourceName));
         }
-        return null;
     }
 
     private String getFullPath(String resourceName) {

@@ -1,6 +1,5 @@
 package com.github.zstd.opencms.thymeleaf;
 
-import org.opencms.file.CmsObject;
 import org.thymeleaf.exceptions.ConfigurationException;
 import org.thymeleaf.resourceresolver.IResourceResolver;
 import org.thymeleaf.resourceresolver.UrlResourceResolver;
@@ -8,9 +7,9 @@ import org.thymeleaf.templateresolver.TemplateResolver;
 
 public class VfsTemplateResolver extends TemplateResolver {
 
-    private CmsObject cmsObject;
+    private CmsObjectAdapter cmsObject;
 
-    public VfsTemplateResolver(CmsObject cmsObject) {
+    public VfsTemplateResolver(CmsObjectAdapter cmsObject) {
         super();
         super.setResourceResolver(new VfsResourceResolver(cmsObject,this));
     }
