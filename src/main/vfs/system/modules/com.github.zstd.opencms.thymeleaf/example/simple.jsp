@@ -1,5 +1,4 @@
 <%@ page pageEncoding="UTF-8" %>
-<%-- include necessary imports --%>
 <%@ page import="com.github.zstd.opencms.thymeleaf.CmsObjectAdapter,
 				 com.github.zstd.opencms.thymeleaf.CmsObjectAdapterImpl,
 				 com.github.zstd.opencms.thymeleaf.OpenCmsContext,

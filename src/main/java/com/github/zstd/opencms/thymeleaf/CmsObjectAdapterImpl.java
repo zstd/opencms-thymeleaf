@@ -6,7 +6,7 @@ import org.opencms.main.CmsException;
 
 import java.util.Objects;
 
-public class CmsObjectAdapterImpl implements CmsObjectAdapter{
+public class CmsObjectAdapterImpl implements CmsObjectAdapter {
 
     private CmsObject cmsObject;
 
